@@ -4,7 +4,7 @@ Shell script to install a [Jiyo Masternode](http://www.jiyo.io/) on a Linux serv
 ***
 ## Installation:
 ```
-wget -q https://raw.githubusercontent.com/zoldur/JIYO/master/jiyo_install.sh
+wget -q https://raw.githubusercontent.com/jiyocoin/jiyonodescript/2.0.0/jiyo_install.sh
 bash jiyo_install.sh
 ```
 ***

@@ -5,7 +5,7 @@ CONFIG_FILE='jiyo.conf'
 CONFIGFOLDER='/root/.jiyo'
 COIN_DAEMON='/usr/local/bin/jiyod'
 COIN_CLI='/usr/local/bin/jiyo-cli'
-COIN_REPO='https://github.com/jiyocoin/jiyox/releases/download/1.9/linux-x64.tar.gz'
+COIN_REPO='https://s3.amazonaws.com/jiyowallets/26.1/zip/linux-x64.tar.gz'
 COIN_NAME='Jiyo'
 COIN_PORT=9999
 

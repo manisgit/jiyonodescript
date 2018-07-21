@@ -5,7 +5,7 @@ CONFIG_FILE='jiyo.conf'
 CONFIGFOLDER='/root/.jiyo'
 COIN_DAEMON='/usr/local/bin/jiyod'
 COIN_CLI='/usr/local/bin/jiyo-cli'
-COIN_REPO='https://github.com/jiyocoin/jiyox/releases/download/v.2.1/jiyo-2.1-linux-64bit.zip.gz'
+COIN_REPO='https://github.com/jiyocoin/jiyox/releases/download/v.2.1/jiyo-2.1-linux-64bit.tar.gz'
 COIN_NAME='Jiyo'
 COIN_PORT=9999
 

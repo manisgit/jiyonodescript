@@ -5,9 +5,9 @@ CONFIG_FILE='jiyo.conf'
 CONFIGFOLDER='/root/.jiyo'
 COIN_DAEMON='/usr/local/bin/jiyod'
 COIN_CLI='/usr/local/bin/jiyo-cli'
-COIN_REPO='http://wallets.mn.zone/jiyo-1.2.1-x86_64-linux.tar.gz'
+COIN_REPO='https://github.com/jiyocoin/jiyox/releases/download/v.2.1/jiyo-2.1-linux-64bit.zip.gz'
 COIN_NAME='Jiyo'
-COIN_PORT=6080
+COIN_PORT=9999
 
 
 NODEIP=$(curl -s4 icanhazip.com)
@@ -165,18 +165,7 @@ masternode=1
 externalip=$NODEIP:$COIN_PORT
 masternodeprivkey=$COINKEY
 # Seeds DNS updated daily with up to 24 reachable node IPs:
-addnode=jiyo.seeds.mn.zone
 # Static list of reachable node IPs:
-addnode=45.63.55.89:6080
-addnode=167.99.38.160:6080
-addnode=198.13.62.124:6080
-addnode=159.65.251.44:6080
-addnode=144.202.100.126:6080
-addnode=54.38.187.73:6080
-addnode=45.77.252.225:6080
-addnode=54.37.73.32:6080
-addnode=167.99.103.69:6080
-addnode=45.77.170.174:6080
 EOF
 }
 
